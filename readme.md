@@ -274,7 +274,7 @@
 
 ```
 
-# what are the diffrences between cookies, sessions and local storage?
+# 11. what are the diffrences between cookies, sessions and local storage?
 
 ## Cookies:
 * Cookies are used to store information on a client’s computer.
