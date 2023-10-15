@@ -158,7 +158,7 @@
 
    ``` 
 
-# 5.// what is the purpose of the "Let" keyword?
+# 5. what is the purpose of the "Let" keyword?
 
 #### A: It is used to declare a variable that is limited to the scope of a block statement, or expression on which it is used.
 
