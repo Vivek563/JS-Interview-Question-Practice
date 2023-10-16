@@ -17,7 +17,6 @@
    ```    
     
 
-
 #### 3. Object.create() method
 
 ```javascript
