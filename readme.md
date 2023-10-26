@@ -284,8 +284,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 - Local Storage is not sent with every request, so it doesn’t worsen performance (especially for mobile data connections).
 
 # 12. What is Promise
-
-    A promise is an object that may produce a single value some time in the future with either a resolve value or a reason that is not resolve(for example, network error). It will be in one of the 3 possible state:
+   A promise is an object that may produce a single value some time in the future with either a resolve value or a reason that is not resolve(for example, network error). It will be in one of the 3 possible state:
             1. Fulfilled
             2. Rejected
             3. Pending
@@ -316,7 +315,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 
 # 13 what is call back function
 
-        A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an UserActivation. Let's take a simple example of how to use callback function.
+   A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an UserActivation. Let's take a simple example of how to use callback function.
 
         ```javascript
         
@@ -335,7 +334,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 
 # 14. Why do we need callbacks?
 
-    The callbacks are needed because javascript is an event driven language. Thiat means instead of waiting for a response javascript will keep executing while listening for other EventSource. Let's take an exapmle with the furse fuction invoking an API call ( simulated by setTimeout) and the next function which log the message.
+   The callbacks are needed because javascript is an event driven language. Thiat means instead of waiting for a response javascript will keep executing while listening for other EventSource. Let's take an exapmle with the furse fuction invoking an API call ( simulated by setTimeout) and the next function which log the message.
 
         ```javascript
 
@@ -358,7 +357,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 
 # 15 What is callback hell
 
-     Callback hell is an anti-pattern with multiple nested callbacks with makes code hard to read debug when dealing with asynchronous logic. The callback hell looks like below,
+   Callback hell is an anti-pattern with multiple nested callbacks with makes code hard to read debug when dealing with asynchronous logic. The callback hell looks like below,
 
     ```javascript
 
@@ -382,7 +381,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 
 # 16 What is callback in callback
 
-    You can nest one callback inside in another callback to execute the actions sequentially one by one. this is know ad callbacks in callbacks.
+   You can nest one callback inside in another callback to execute the actions sequentially one by one. this is know ad callbacks in callbacks.
 
     ```javascript
 
@@ -427,7 +426,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 
 # 19.  What is promise.all 
 
-     Promise.all is a promse that takes an array of promises as an input (an iterable), and it gets resolved when all the promise get resilved or any one of then get rejected. 
+   Promise.all is a promse that takes an array of promises as an input (an iterable), and it gets resolved when all the promise get resilved or any one of then get rejected. 
     
     ```javascript
         Promise.all([Promise1, Promise2, Promise3]). then(result) => {
