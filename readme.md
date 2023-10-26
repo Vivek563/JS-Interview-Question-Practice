@@ -8,9 +8,11 @@ var object = {};
 
 #### 2. Object Constructor
 
-```javascript
-var object = new Object();
-```
+   ```javascript
+        var object = new Object();
+   ```    
+    
+
 
 #### 3. Object.create() method
 
