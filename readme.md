@@ -290,16 +290,16 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
             3. Pending
     The syntax of promise creation look like below,
 
-            ```javascript
+```javascript
 
             const promise = new Promise(function(resolve, reject){
             // promise description
             })
 
-            ```
+```
     example:
 
-            ```javascript
+```javascript
 
             const promise = new Promise((resolve) => {
 
@@ -311,13 +311,13 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
             });
             promise.then(value => console.log(value))
 
-            ```
+```
 
 # 13 what is call back function
 
    A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an UserActivation. Let's take a simple example of how to use callback function.
 
-        ```javascript
+```javascript
         
         function callbackFunction(name) {
           console.log("hello " + name);
@@ -330,13 +330,13 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
         
         outerFunction(callbackFunction);
 
-        ```
+```
 
 # 14. Why do we need callbacks?
 
    The callbacks are needed because javascript is an event driven language. Thiat means instead of waiting for a response javascript will keep executing while listening for other EventSource. Let's take an exapmle with the furse fuction invoking an API call ( simulated by setTimeout) and the next function which log the message.
 
-        ```javascript
+```javascript
 
         function firstfunction(){
             //simulated a code delay
@@ -352,14 +352,14 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
         firstfunction();
         secondfuction();
 
-        ```
+```
 
 
 # 15 What is callback hell
 
    Callback hell is an anti-pattern with multiple nested callbacks with makes code hard to read debug when dealing with asynchronous logic. The callback hell looks like below,
 
-    ```javascript
+```javascript
 
     async (function(){
         async (function(){
@@ -377,13 +377,13 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
         });
     });
 
-    ```
+```
 
 # 16 What is callback in callback
 
    You can nest one callback inside in another callback to execute the actions sequentially one by one. this is know ad callbacks in callbacks.
 
-    ```javascript
+```javascript
 
             loadScript("/script1.js", () => {
             console.log("first script is loaded");
@@ -400,13 +400,13 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
                 });
                 });
 
-    ```
+```
 
 # 17  What is Promise Chaining 
 
   The process of excuting a sequence of asynchronous tasks one after another using promise is known as Promise chaining. Let's take an example of promise chaining for calculating the final result,
 
-        ```javascript
+```javascript
 
          new Promise(function(resolve, reject){
                 setTimeout(() => resolve(1), 1000);
@@ -422,16 +422,16 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
                 return result*4;
             });
 
-        ```
+```
 
 # 19.  What is promise.all 
 
    Promise.all is a promse that takes an array of promises as an input (an iterable), and it gets resolved when all the promise get resilved or any one of then get rejected. 
     
-    ```javascript
+```javascript
         Promise.all([Promise1, Promise2, Promise3]). then(result) => {
                 console.log(result);
             }
-    ```
+```
     
 ###  Note: Remember that the order of the promses (output the result) is maintained as per input order. 
