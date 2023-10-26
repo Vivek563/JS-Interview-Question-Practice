@@ -297,7 +297,7 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
             })
 
 ```
-    example:
+example:
 
 ```javascript
 
@@ -435,3 +435,34 @@ myFunction("Hello Mr."); // Output: Hello Mr.Vivek
 ```
     
 ###  Note: Remember that the order of the promses (output the result) is maintained as per input order. 
+
+
+ # 19. What is the purpose of the delete operator
+
+The delete keyword is used to delete the property as well as its value.
+
+```javascript
+var user = { name: "Vivek", age: 20 };
+delete user.age;
+
+console.log(user);
+
+```
+
+# 20. What is the typeof Operator 
+
+ You ca use the javascript typeof operator to find the type of a javascript variable. It return the type fo a variable or an expression 
+
+```javascript
+console.log(typeof "Vivek Maurya");  // return "string"
+
+console.log(typeof (1+2));  //return "number"
+```
+
+# 21.  What is eval
+
+ The eval() function evalutes javascript code represented a String. The String can be a Javascript expression, variable, statement, or sequence of statement.
+
+```javascript
+console.log(eval("1 + 2")); //3
+```
