@@ -466,3 +466,46 @@ console.log(typeof (1+2));  //return "number"
 ```javascript
 console.log(eval("1 + 2")); //3
 ```
+
+# 22. What is Global Variable?
+
+Global variable are those that are available thorughout the length of the code without any Scope. the var keyword is used to declare a local variable but if you omit it then it will become global variable.
+
+example: 
+
+```javascript
+mgs = "Vivek Maurya"  /// var is missing, so it become global variable
+```
+SO, What are the problem with global variable?
+
+ - The problem with global variable is the conflict of variable names of local and global scope. It is also difficult to dubug and test the code that relies on global variable. 
+ 
+
+# 23. What is Events? 
+
+ Events are "things" that happen to HTML elements. When Javascript is used in HTML elements, Javascript can react on these events. SOme of the examples of HTML events are, 
+  1. Web page has finished loading.
+  2. Input field was Changed.
+  3. Button was clicked.
+
+Let's decribe the behaviour of click event for button element,
+
+```HTML
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+
+     <script>
+         function greeting() {
+             alert("Hello World!");
+         }
+     </script>
+
+ </head>
+ <body>
+     <button type="button" onclick="greeting()">Click Me!</button>
+ </body>
+ </html>```
