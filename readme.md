@@ -233,7 +233,7 @@ console.log(x); // 3
 
 # 10. What are closures in JavaScript?
 
-     A closure is a function defined inside another function (called parent function) and has access to the variable which is declared and defined in parent function scope.
+A closure is a function defined inside another function (called parent function) and has access to the variable which is declared and defined in parent function scope.
 
  closure has access to three scopes:
 
