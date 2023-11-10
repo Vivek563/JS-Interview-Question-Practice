@@ -163,9 +163,10 @@ console.log(counter); // 30 (because it is outside the scope of the if statement
 ```
 
 # 6. What is the different between let and var ?
-     A: var is scoped to the nearest function block and let is scoped to the nearest enclosing block, which can be smaller than a function block. Both are global if outside any block.
 
- example:
+Var is scoped to the nearest function block and let is scoped to the nearest enclosing block, which can be smaller than a function block. Both are global if outside any block.
+
+Example:
 
 ```javascript
 var counter = 30;
