@@ -68,7 +68,7 @@ var object = new (function () {
 
 ```javascript
 let employee1 = { firstName: "Vivek", lastName: "Maurya" };
-var employee2 = { firstName: "Juhi", lastName: "Maurya" };
+var employee2 = { firstName: "Rahul", lastName: "Maurya" };
 
 function invite(greeting1, greeting2) {
   console.log(
@@ -84,7 +84,7 @@ invite.call(employee2, "hello", "how are you?");
 
 ```javascript
 var employe1 = { firestName: "Vivek", lastName: "Maurya" };
-var employe2 = { firstName: "Juhi", lastName: "Maurya" };
+var employe2 = { firstName: "Rahul", lastName: "Maurya" };
 
 function invite(greeting1, greeting2) {
   console.log(
@@ -100,7 +100,7 @@ invite.apply(employe2, ["hello", "how are you?"]);
 
 ```javascript
 var employ1 = { firstName: "Vivek", lastName: "Maurya" };
-var employ2 = { firstName: "Juhi", lastName: "Maurya" };
+var employ2 = { firstName: "Rahul", lastName: "Maurya" };
 
 function invite(greeting1, greeting2) {
   console.log(
@@ -325,7 +325,7 @@ example:
         }
         
         function outerFunction(callback) {
-          let name = "Juhi";
+          let name = "Rahul";
           callback(name);
         }
         
